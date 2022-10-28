@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    box-sizing:border-box;
+  }
+  .nav{
+      display: flex;
+    background-color: black;
+  }
+  .right{
+    background-color: black;
+    padding: 20px;
+    flex: 70%;
+  }
+  .right a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 13px 20px; 
+  }
+  .left{
+    color: white;
+    flex: 30%;
+    padding: 20px;
+  }
+  .left a{
+    padding: 13px 20px; 
+    font-size: 16px;
+    font-family: Helvetica;
+    cursor: pointer;
+    text-decoration:none;
+    color:white;
+  }
+ 
+  .about-container{
+    display:flex;
+    background-color:#212121;
+  }
+  #about{
+      color:white;
+    padding:150px;
+     flex: 30%;
+  }
+  .para1{
+    color:#f0147e;
+    font-size:18px;
+    margin-left:23px;
+  }
+  .hh{
+    font-size:65px;
+  }
+  .image{
+    padding: 100px;
+    margin-right:50px;
+  
+    
+  }
+  .image img{
+    border-radius:20px;
+    flex: 70%;
+  }
+   #project-container{
+    background-color: #94a3f7;
+   }
+   
+  #projects{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+  }
+  .proj2{
+  margin-left: 30px;
+  }
+  .proj4{
+    margin-left: 30px;
+    }
+    .proj5{
+      margin-left: 30px;
+      }
+  
+  .project-heading{
+    text-align: center;
+    font-size:50px;
+    font-family:Helvetica;
+    color:#212122;
+  }
+  .proj1 p{
+    font-size: 18px;
+    color: #fffdfe;
+    text-align: center;
+  }
+  .proj2 p{
+    font-size: 18px;
+    color: #fffdfe;
+    text-align: center;
+  }
+  .proj3 p{
+    font-size: 18px;
+    color: #fffdfe;
+    text-align: center;
+  }
+  .proj4 p{
+    font-size: 18px;
+    color: #fffdfe;
+    text-align: center;
+  }
+  .proj5 p{
+    font-size: 18px;
+    color: #fffdfe;
+    text-align: center;
+  }
+
+  #services{
+    background-color: #212121;
+    color: white;
+    padding: 70px;
+  }
+  .hobbies li{
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 20px;
+  }
+.hobbies h2{
+  text-align: center;
+  font-size: 50px;
+  color: #f0147e;
+}
+
+#footer{
+  background-color: #212121;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
