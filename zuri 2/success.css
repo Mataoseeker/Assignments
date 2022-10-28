@@ -1,0 +1,29 @@
+body{
+    background-color: #585757;
+    font-family: 'Roboto', sans-serif;
+}
+.success-page{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+
+.success-page a{
+    padding: 10px 100px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: #585757;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.success-page a:hover{
+    background-color: rgb(255, 250, 250);
+    color: #585757;
+}
