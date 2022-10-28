@@ -1,0 +1,66 @@
+body{
+    background-color: #585757;
+    font-family: 'Roboto', sans-serif;
+}
+.nav{
+    display: flex;
+    background-color:#585757;
+    padding: 20px 0;
+    justify-content: center;
+    border-bottom: 1px solid rgb(14, 13, 13);
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 0 50px;
+}
+.zuri{
+    margin-left: 850px;
+}
+
+
+.login-container h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 50px;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.login input{
+    padding: 10px 100px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.login a{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: #585757;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.login a:hover{
+    background-color: rgb(255, 250, 250);
+    color: #585757;
+}
+.login label{
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <title>Martha Osika</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <a href="index.html">Martha Osika</a>
+            <div class="zuri">
+                <a href="#">Zuri HTML & CSS Task</a>
+            </div> 
+        </div>
+    </header>
+    <main>
+        <section id="register-container">
+            <h1>Registration Page</h1>
+            <div class="register">
+                <form action="register.html" method="POST">
+                    <div class="form-group">
+                        <label for="fname">First Name</label>
+                        <input type="text" name="fname" id="fname" placeholder="Enter your First Name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Last Name</label>
+                        <input type="text" name="lname" id="lname" placeholder="Enter your Last Name" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="tel">Phone Number</label>
+                        <input type="tel" name="tel" id="tel" placeholder="Enter your Phone Number" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your email" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender</label>
+                    <select>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Rather not say</option>
+                    </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="d.o.b">Date Of Birth</label>
+                        <input type="date" name="d.o.b" id="d.o.b" placeholder="Enter your Date Of Birth" required />
+                        </div>
+                        <div>
+                            <label for="favourite-color">Favourite Color</label>
+                            <input type="color" name="favourite-color" id="favourite-color" placeholder="Enter your Favourite Color" required />
+                        </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Enter your password" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirm your password" required />
+                    </div>
+                    <div class="form-group">
+                        <a href="success.html">Register</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
